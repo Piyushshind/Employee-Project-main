@@ -23,7 +23,8 @@ public class mainClass {
             System.out.println("10. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();  
+            // Consume newline
 
             switch (choice) {
                 case 1:
